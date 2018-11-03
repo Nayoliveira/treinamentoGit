@@ -1,0 +1,27 @@
+[debug] [2018-07-19T14:29:38.208Z] ----------------------------------------------------------------------
+[debug] [2018-07-19T14:29:38.211Z] Command:       /usr/bin/node /usr/local/bin/firebase use --add
+[debug] [2018-07-19T14:29:38.212Z] CLI Version:   3.19.2
+[debug] [2018-07-19T14:29:38.212Z] Platform:      linux
+[debug] [2018-07-19T14:29:38.212Z] Node Version:  v8.10.0
+[debug] [2018-07-19T14:29:38.212Z] Time:          Thu Jul 19 2018 11:29:38 GMT-0300 (-03)
+[debug] [2018-07-19T14:29:38.212Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-19T14:29:38.228Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-07-19T14:29:38.228Z] > authorizing via signed-in user
+[debug] [2018-07-19T14:29:38.231Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-19T14:29:38.232Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/fHfLGj7DZf9toQYVY4RkpeMjsLigXGiN-FNaQlZoZBc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jul 19 2018 11:29:38 GMT-0300 (-03)
+[debug] [2018-07-19T14:29:58.696Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-19T14:29:58.762Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Thu Jul 19 2018 11:29:58 GMT-0300 (-03)
+[debug] [2018-07-19T14:30:23.806Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443

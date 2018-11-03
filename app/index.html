@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="manifest" href="manifest.json" />
+    <title>Push Notification</title>
+</head>
+<body>
+<h1>Push Notification</h1>
+<p>This page must be accessed using HTTPS or via localhost.</p>
+<button disabled>Subscribe</button>
+<script src="js/main.js"></script>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDwvKfajYueklwGqdJlMB1r09gqpZG_n5c",
+    authDomain: "chrome-b7239.firebaseapp.com",
+    databaseURL: "https://chrome-b7239.firebaseio.com",
+    projectId: "chrome-b7239",
+    storageBucket: "chrome-b7239.appspot.com",
+    messagingSenderId: "43184355109"
+  };
+  firebase.initializeApp(config);
+</script>
